@@ -2,7 +2,6 @@ package org.example;
 import java.util.Scanner;
 
 public class Calculator {
-    public class Main {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             System.out.print("Enter the first number: ");
@@ -50,5 +49,5 @@ public class Calculator {
             return a / b;
         }
 
-    }
+
 }

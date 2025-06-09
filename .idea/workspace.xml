@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="813f5b22-d6d1-4814-ab9f-81c75705e2f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="813f5b22-d6d1-4814-ab9f-81c75705e2f6" name="Changes" comment="Still broken but need to look at solutions to find and fix errors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StringUtilities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +55,7 @@
     "JUnit.CalculatorTests.testAdd.executor": "Run",
     "JUnit.StringUtilitiesTests.executor": "Run",
     "JUnit.StringUtilitiesTests.testBigger.executor": "Run",
+    "JUnit.StringUtilitiesTests.testCensorAsparagus.executor": "Run",
     "JUnit.StringUtilitiesTests.testFirstLetter.executor": "Run",
     "JUnit.StringUtilitiesTests.testShortString.executor": "Run",
     "JUnit.org.example in software-dev-course-classes-and-objects-1.executor": "Run",
@@ -67,12 +65,12 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/mikel/projects/java/software-dev-course-classes-and-objects-1/pom.xml"
+    "last_opened_file_path": "C:/Users/josh_/IdeaProjects/software-dev-course-classes-and-objects-1-josh-b"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StringUtilitiesTests.testBigger">
-    <configuration name="StringUtilities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.StringUtilities" />
+  <component name="RunManager" selected="JUnit.CalculatorTests">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Calculator" />
       <module name="software-dev-course-classes-and-objects-1" />
       <extension name="coverage">
         <pattern>
@@ -84,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilitiesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software-dev-course-classes-and-objects-1" />
       <extension name="coverage">
         <pattern>
@@ -93,13 +91,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.StringUtilitiesTests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilitiesTests.testBigger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTests.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software-dev-course-classes-and-objects-1" />
       <extension name="coverage">
         <pattern>
@@ -108,14 +106,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.StringUtilitiesTests" />
-      <option name="METHOD_NAME" value="testBigger" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTests" />
+      <option name="METHOD_NAME" value="testAdd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilitiesTests.testFirstLetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringUtilitiesTests.testCensorAsparagus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software-dev-course-classes-and-objects-1" />
       <extension name="coverage">
         <pattern>
@@ -125,7 +123,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.StringUtilitiesTests" />
-      <option name="METHOD_NAME" value="testFirstLetter" />
+      <option name="METHOD_NAME" value="testCensorAsparagus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringUtilitiesTests.testBigger" />
-        <item itemvalue="JUnit.StringUtilitiesTests" />
-        <item itemvalue="Application.StringUtilities" />
-        <item itemvalue="JUnit.StringUtilitiesTests.testFirstLetter" />
+        <item itemvalue="JUnit.CalculatorTests" />
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="JUnit.StringUtilitiesTests.testShortString" />
+        <item itemvalue="JUnit.StringUtilitiesTests.testCensorAsparagus" />
+        <item itemvalue="JUnit.CalculatorTests.testAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +164,20 @@
       <option name="presentableId" value="Default" />
       <updated>1738943649568</updated>
     </task>
+    <task id="LOCAL-00001" summary="Still broken but need to look at solutions to find and fix errors">
+      <option name="closed" value="true" />
+      <created>1749437367737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749437367737</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Still broken but need to look at solutions to find and fix errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Still broken but need to look at solutions to find and fix errors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -175,6 +186,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Calculator.java</url>
           <line>3</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/StringUtilitiesTests.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
